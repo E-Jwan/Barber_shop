@@ -1,0 +1,38 @@
+/* 
+Le Bon Vieux Barber */
+
+body {
+  background-image: url(images/background_pic2.jpg);
+  color: white;
+  width: 100%;
+  font-family: "Abril Fatface", cursive;
+}
+
+.mybox {
+  text-align: center;
+  /* background-color: orange; */
+  min-height: 200px;
+  margin: 20px;
+  padding: 10px;
+}
+
+footer {
+  /* position: relative; */
+}
+
+.contact {
+  background-color: rgb(119, 94, 47);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  word-spacing: 25px;
+}
+
+.contact a {
+  color: white;
+}
+
+.box1 {
+  background-color: rgba(83, 110, 134, 0.397);
+  height: 10px;
+}
