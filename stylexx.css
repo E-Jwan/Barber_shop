@@ -1,0 +1,140 @@
+body {
+  background-image: url(images/background_pic2.jpg);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.125rem;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgb(211, 203, 203);
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.navbutton {
+  color: white;
+  font-family: "Playfair Display", serif;
+  padding: 11px 25px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 5px black;
+  margin-left: 30px;
+  border: 1px solid white;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbutton:hover {
+  background-color: rgba(255, 166, 0, 0.363);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  padding-top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.card1 {
+  background-image: url(images/blk_man_3.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  box-shadow: 5px 5px 10px rgba(68, 66, 66, 0.651);
+}
+
+.card2 {
+  background-image: url(images/wht_man_1.jpg);
+  width: 30%;
+  min-height: 250px;
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: 5px 5px 10px rgba(68, 66, 66, 0.651);
+}
+
+.card3 {
+  background-image: url(images/spn_man_2.jpg);
+  width: 30%;
+  min-height: 250px;
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: 5px 5px 10px rgba(68, 66, 66, 0.651);
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+  border: solid 1px white;
+}
+
+.inputwrapper {
+  margin: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 0.85rem;
+  box-sizing: border-box; /* use box-sizing to get rid off/slice off padding */
+}
+
+/* .newline {
+  display: block;
+  margin-bottom: 10px;
+} */
+
+/* .margin-right-a {
+  margin-right: 20px;
+} */
+
+/* form {
+  margin: 40px 0px;
+} */
+
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.tbox p:last-of-type {
+  font-size: 0.8rem;
+  padding-left: 30px;
+}
